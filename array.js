@@ -12,3 +12,4 @@ let arr1=[...arr];
 arr1.push(4);
 console.log(arr);
 console.log(arr1);
+///hello
