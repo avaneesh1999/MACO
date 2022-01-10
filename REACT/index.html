@@ -13,30 +13,18 @@
     <div id="root"></div>
     
 </body>
-<script>
+<script type="text/babel">
    //JSX =JS +HTML
 
-//    function Element(){
-//        return(
-//            <div>
-//             Hello
-//             </div>
-//        )
-//    }
-
-   function Main(){
-        return(
-            <React.Fragment>
-                <Element name='Udai' place='delhi'/>
-                <Element/>
-                <Element/>
-                <Element/>
-                <Element/>
-            </React.Fragment>
-        )
-    }
+   function Element(){
+       return(
+           <div>
+            Hello
+            </div>
+       )
+   }
    
-   ReactDOM.render(<Main/>,document.getElementById('root'));
+   ReactDOM.render(<Element/>,document.getElementById('root'));
 
 
 </script>
