@@ -6,7 +6,7 @@
 //1-case
 
 // console.log(this);//windows
-
+ 
 function amt(){
     console.log(this);//windows
 }
